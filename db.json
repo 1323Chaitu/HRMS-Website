@@ -1,0 +1,477 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "employeeId": "EMP001",
+      "active": true
+    },
+    {
+      "id": "2",
+      "username": "employee",
+      "password": "emp123",
+      "role": "employee",
+      "employeeId": "EMP002",
+      "active": true
+    },
+    {
+      "username": "priya",
+      "password": "HRMS@juhuoyad1",
+      "role": "employee",
+      "employeeId": "EMP003",
+      "active": true,
+      "id": "a6oN-r6"
+    },
+    {
+      "username": "rahul",
+      "password": "HRMS@1dn3x6ym1",
+      "role": "employee",
+      "employeeId": "EMP004",
+      "active": true,
+      "id": "uHND2sR"
+    },
+    {
+      "username": "sneha",
+      "password": "HRMS@ybzusytv1",
+      "role": "employee",
+      "employeeId": "EMP005",
+      "active": true,
+      "id": "c4AbHZo"
+    },
+    {
+      "username": "meera",
+      "password": "HRMS@5bwv53ua1",
+      "role": "employee",
+      "employeeId": "EMP007",
+      "active": true,
+      "id": "ByNfmXD"
+    },
+    {
+      "username": "kiran",
+      "password": "HRMS@mzi6jt491",
+      "role": "employee",
+      "employeeId": "EMP008",
+      "active": true,
+      "id": "mjZ9S4R"
+    },
+    {
+      "username": "cccchaitu2306",
+      "password": "HRMS@nicy7rvn1",
+      "role": "employee",
+      "employeeId": "EMP1794824174135",
+      "active": true,
+      "id": "bgW-wXU"
+    }
+  ],
+  "employees": [
+    {
+      "id": "EMP001",
+      "name": "Admin User",
+      "email": "admin@smarthrms.com",
+      "department": "Human Resources",
+      "designation": "HR Manager",
+      "phone": "9876543210",
+      "joiningDate": "2025-01-10",
+      "status": "Active",
+      "salary": 50000
+    },
+    {
+      "id": "EMP002",
+      "name": "John Smith",
+      "email": "john@smarthrms.com",
+      "department": "IT",
+      "designation": "Software Developer",
+      "phone": "9876543211",
+      "joiningDate": "2025-03-15",
+      "status": "Active",
+      "salary": 35000
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya@smarthrms.com",
+      "department": "Finance",
+      "designation": "Accountant",
+      "phone": "9876543212",
+      "joiningDate": "2025-05-12",
+      "salary": 32000,
+      "status": "Active",
+      "id": "EMP003"
+    },
+    {
+      "id": "EMP004",
+      "name": "Rahul Kumar",
+      "email": "rahul@smarthrms.com",
+      "department": "IT",
+      "designation": "Frontend Developer",
+      "phone": "9876543213",
+      "joiningDate": "2025-06-20",
+      "status": "Active",
+      "salary": 38000
+    },
+    {
+      "id": "EMP005",
+      "name": "Sneha Reddy",
+      "email": "sneha@smarthrms.com",
+      "department": "Marketing",
+      "designation": "Marketing Executive",
+      "phone": "9876543214",
+      "joiningDate": "2025-08-05",
+      "status": "Active",
+      "salary": 30000
+    },
+    {
+      "id": "EMP006",
+      "name": "Arjun Patel",
+      "email": "arjun@smarthrms.com",
+      "department": "Operations",
+      "designation": "Operations Executive",
+      "phone": "9876543215",
+      "joiningDate": "2025-09-10",
+      "status": "Inactive",
+      "salary": 28000
+    },
+    {
+      "id": "EMP007",
+      "name": "Meera Rao",
+      "email": "meera@smarthrms.com",
+      "department": "Human Resources",
+      "designation": "HR Executive",
+      "phone": "9876543216",
+      "joiningDate": "2025-10-15",
+      "status": "Active",
+      "salary": 33000
+    },
+    {
+      "id": "EMP008",
+      "name": "Kiran Verma",
+      "email": "kiran@smarthrms.com",
+      "department": "Sales",
+      "designation": "Sales Executive",
+      "phone": "9876543217",
+      "joiningDate": "2025-11-01",
+      "status": "Active",
+      "salary": 31000
+    },
+    {
+      "name": "Chaithanya Chapparapu",
+      "email": "ccc.chaitu2306@gmail.com",
+      "department": "IT",
+      "designation": "Intern",
+      "phone": "8074335748",
+      "joiningDate": "2026-02-01",
+      "salary": 15000,
+      "status": "Active",
+      "id": "EMP1794824174135"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "ATT001",
+      "employeeId": "EMP001",
+      "date": "2026-11-15",
+      "status": "Present",
+      "checkIn": "09:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT002",
+      "employeeId": "EMP002",
+      "date": "2026-11-15",
+      "status": "Present",
+      "checkIn": "09:10",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT003",
+      "employeeId": "EMP003",
+      "date": "2026-11-15",
+      "status": "Present",
+      "checkIn": "09:05",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT004",
+      "employeeId": "EMP004",
+      "date": "2026-11-15",
+      "status": "Absent",
+      "checkIn": "",
+      "checkOut": ""
+    },
+    {
+      "id": "ATT005",
+      "employeeId": "EMP005",
+      "date": "2026-11-15",
+      "status": "Present",
+      "checkIn": "09:15",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT006",
+      "employeeId": "EMP007",
+      "date": "2026-11-15",
+      "status": "Present",
+      "checkIn": "09:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT007",
+      "employeeId": "EMP008",
+      "date": "2026-11-15",
+      "status": "Late",
+      "checkIn": "10:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT008",
+      "employeeId": "EMP002",
+      "date": "2026-11-14",
+      "status": "Present",
+      "checkIn": "09:00",
+      "checkOut": "18:00"
+    },
+    {
+      "id": "ATT1794814034365",
+      "employeeId": "EMP002",
+      "date": "2026-11-16",
+      "status": "Late",
+      "checkIn": "12:57",
+      "checkOut": "12:57"
+    },
+    {
+      "id": "ATT1794814221652",
+      "employeeId": "EMP003",
+      "date": "2026-11-16",
+      "status": "Absent",
+      "checkIn": "",
+      "checkOut": ""
+    },
+    {
+      "id": "ATT1794814225203",
+      "employeeId": "EMP001",
+      "date": "2026-11-16",
+      "status": "Absent",
+      "checkIn": "",
+      "checkOut": ""
+    }
+  ],
+  "leaves": [
+    {
+      "id": "LEV001",
+      "employeeId": "EMP002",
+      "employeeName": "John Smith",
+      "leaveType": "Casual Leave",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-19",
+      "status": "Approved"
+    },
+    {
+      "id": "LEV002",
+      "employeeId": "EMP003",
+      "employeeName": "Priya Sharma",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-20",
+      "status": "Approved"
+    },
+    {
+      "id": "LEV003",
+      "employeeId": "EMP005",
+      "employeeName": "Sneha Reddy",
+      "leaveType": "Casual Leave",
+      "startDate": "2026-11-22",
+      "endDate": "2026-11-23",
+      "status": "Approved"
+    },
+    {
+      "id": "LEV1794818655819",
+      "employeeId": "EMP002",
+      "employeeName": "employee",
+      "leaveType": "Casual Leave",
+      "startDate": "2026-11-17",
+      "endDate": "2026-11-17",
+      "days": 1,
+      "reason": "Casual Leave",
+      "appliedDate": "2026-11-16",
+      "status": "Approved"
+    },
+    {
+      "id": "LEV1794818751835",
+      "employeeId": "EMP002",
+      "employeeName": "employee",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-11-18",
+      "endDate": "2026-11-21",
+      "days": 4,
+      "reason": "Sick Leave",
+      "appliedDate": "2026-11-16",
+      "status": "Rejected"
+    }
+  ],
+  "payroll": [
+    {
+      "id": "PAY001",
+      "employeeId": "EMP001",
+      "month": "November",
+      "year": 2026,
+      "basicSalary": 50000,
+      "deductions": 2000,
+      "netSalary": 48000,
+      "status": "Processed"
+    },
+    {
+      "id": "PAY002",
+      "employeeId": "EMP002",
+      "month": "November",
+      "year": 2026,
+      "basicSalary": 35000,
+      "deductions": 1500,
+      "netSalary": 33500,
+      "status": "Processed"
+    },
+    {
+      "id": "PAY003",
+      "employeeId": "EMP003",
+      "month": "November",
+      "year": 2026,
+      "basicSalary": 32000,
+      "deductions": 1200,
+      "netSalary": 30800,
+      "status": "Processed"
+    },
+    {
+      "id": "PAY004",
+      "employeeId": "EMP004",
+      "month": "November",
+      "year": 2026,
+      "basicSalary": 38000,
+      "deductions": 1800,
+      "netSalary": 36200,
+      "status": "Pending"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "React Developer",
+      "department": "IT",
+      "location": "Hyderabad",
+      "type": "Full-time",
+      "salary": 15000,
+      "description": "React Developer",
+      "requirements": "React, Frontend",
+      "status": "Active",
+      "id": "JOB1794821824756",
+      "postedDate": "2026-11-16"
+    }
+  ],
+  "applications": [
+    {
+      "id": "APP1794821885617",
+      "jobId": "JOB1794821824756",
+      "jobTitle": "React Developer",
+      "candidateName": "Chaithanya Chapparapu",
+      "email": "ccc.chaitu2306@gmail.com",
+      "phone": "08074335748",
+      "experience": "Fresher",
+      "resumeLink": "",
+      "coverLetter": "",
+      "status": "Shortlisted",
+      "appliedDate": "2026-11-16"
+    }
+  ],
+  "performanceReviews": [
+    {
+      "employeeId": "EMP002",
+      "employeeName": "John Smith",
+      "reviewPeriod": "November 2026",
+      "productivity": 3,
+      "communication": 5,
+      "teamwork": 4,
+      "technicalSkills": 4,
+      "overallScore": 4,
+      "category": "Good",
+      "comments": "Not bad.",
+      "improvements": "Better to be improved",
+      "reviewDate": "2026-11-16",
+      "id": "REV1794822233003"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "HRM Task",
+      "description": "DO the HRM task",
+      "employeeId": "EMP002",
+      "priority": "Medium",
+      "dueDate": "2026-11-17",
+      "status": "Completed",
+      "employeeName": "John Smith",
+      "updatedAt": "2026-11-16T09:51:31.756Z",
+      "id": "TASK1794822685263"
+    }
+  ],
+  "documents": [
+    {
+      "title": "1234567890",
+      "category": "Other",
+      "employeeId": "EMP002",
+      "documentUrl": "https://document2.com",
+      "description": "docs.",
+      "employeeName": "John Smith",
+      "updatedAt": "2026-11-16T10:00:43.388Z",
+      "id": "DOC1794823228119"
+    }
+  ],
+  "settings": [
+    {
+      "companyName": "SmartHRMS",
+      "companyEmail": "smarthrms@hrms.com",
+      "companyPhone": "8734658723",
+      "companyAddress": "----",
+      "officeStartTime": "09:30",
+      "officeEndTime": "18:35",
+      "lateAfterMinutes": 5,
+      "leaveTypes": [
+        {
+          "name": "Casual Leave",
+          "days": 10
+        },
+        {
+          "name": "Sick Leave",
+          "days": 15
+        },
+        {
+          "name": "Earned Leave",
+          "days": 12
+        }
+      ],
+      "dateFormat": "DD/MM/YYYY",
+      "id": 1
+    },
+    {
+      "companyName": "SmartHRMS",
+      "companyEmail": "",
+      "companyPhone": "",
+      "companyAddress": "",
+      "officeStartTime": "09:00",
+      "officeEndTime": "18:00",
+      "lateAfterMinutes": 15,
+      "leaveTypes": [
+        {
+          "name": "Casual Leave",
+          "days": 12
+        },
+        {
+          "name": "Sick Leave",
+          "days": 10
+        },
+        {
+          "name": "Earned Leave",
+          "days": 15
+        }
+      ],
+      "dateFormat": "DD/MM/YYYY",
+      "id": 2
+    }
+  ]
+}

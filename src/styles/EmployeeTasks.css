@@ -1,0 +1,222 @@
+
+.employee-tasks-section {
+  margin-top: 25px;
+  padding: 22px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.employee-tasks-heading {
+  margin-bottom: 20px;
+}
+
+.employee-tasks-heading h2 {
+  margin: 0 0 6px;
+  color: var(--text-primary);
+  font-size: 21px;
+}
+
+.employee-tasks-heading p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.employee-tasks-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.employee-tasks-summary > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: var(--surface-secondary);
+}
+
+.employee-tasks-summary span {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.employee-tasks-summary strong {
+  color: var(--text-primary);
+  font-size: 22px;
+}
+
+.employee-tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.employee-task-card {
+  padding: 17px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+}
+
+.employee-task-card:hover {
+  border-color: var(--primary);
+  box-shadow: var(--shadow-sm);
+}
+
+.employee-task-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.employee-task-main h3 {
+  margin: 0 0 7px;
+  color: var(--text-primary);
+  font-size: 16px;
+}
+
+.employee-task-main p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+.employee-task-priority {
+  flex-shrink: 0;
+  padding: 5px 9px;
+  border-radius: 20px;
+  background: var(--surface-secondary);
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.employee-task-priority.high {
+  background: var(--danger-light);
+  color: var(--danger);
+}
+
+.employee-task-priority.medium {
+  background: var(--warning-light);
+  color: #92400e;
+}
+
+.employee-task-priority.low {
+  background: var(--success-light);
+  color: #166534;
+}
+
+.employee-task-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 15px;
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-color);
+}
+
+.employee-task-footer > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.employee-task-footer > div > span:first-child,
+.employee-task-footer label {
+  color: var(--text-secondary);
+  font-size: 12px;
+}
+
+.employee-task-footer strong {
+  color: var(--text-primary);
+  font-size: 13px;
+}
+
+.employee-task-footer label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.employee-task-footer select {
+  min-width: 140px;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-primary);
+  outline: none;
+  transition: var(--transition);
+}
+
+.employee-task-footer select:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.employee-task-overdue {
+  color: var(--danger) !important;
+  font-size: 11px !important;
+  font-weight: 600;
+}
+
+.employee-tasks-empty {
+  padding: 30px 15px;
+  border: 1px dashed var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.employee-tasks-empty h3 {
+  margin: 0 0 7px;
+  color: var(--text-primary);
+  font-size: 15px;
+}
+
+.employee-tasks-empty p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.employee-tasks-error {
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: var(--danger-light);
+  color: var(--danger);
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .employee-tasks-section {
+    padding: 15px;
+  }
+
+  .employee-task-main {
+    flex-direction: column;
+  }
+
+  .employee-task-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .employee-task-footer select {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .employee-tasks-summary {
+    grid-template-columns: 1fr;
+  }
+}
